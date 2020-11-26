@@ -40,11 +40,13 @@ small {
   font-weight: 300;
 }
 .grooverTitle {
-  color: orangered
+  color: orangered;
+  letter-spacing: 1.3px;
 }
 .groover {
   color: black;
   text-shadow: 3px 5px 0px rgba(206,89,55,0.77);
+  letter-spacing: 1.3px;
 }
 
 h1,
@@ -66,6 +68,7 @@ h4 {
   margin-left: 64px;
   color: wheat;
   font-style: bold;
+  letter-spacing: 1.3px;
 }
 .description {
   color: wheat;
@@ -73,6 +76,8 @@ h4 {
   text-align: center;
   margin-top: 64px;
   line-height: 1.5;
+  letter-spacing: 1.3px;
+  
 }
 
 img {
@@ -87,6 +92,7 @@ img {
   margin-right: 64px;
   color: wheat;
   font-style: bold;
+  letter-spacing: 1.3px;
 }
 
 .objectifs {
@@ -103,6 +109,7 @@ img {
   margin-top: 64px;
   line-height: 1.5;
   margin-bottom: 132px;
+  letter-spacing: 1,5px;
 }
 
 .realizationsTitle {
@@ -110,6 +117,7 @@ img {
   justify-content: center;
   color: wheat;
   font-style: bold;
+  letter-spacing: 1.3px;
 }
 
 .realizations {
@@ -123,6 +131,7 @@ img {
     color: wheat;
     line-height: 1.5;
     list-style: none;
+    letter-spacing: 1.3px;
 }
 
 .projetDescription p li {
@@ -144,6 +153,7 @@ img {
   align-items: center;
   text-align: center;
   margin-bottom: 64px;
+  letter-spacing: 1.3px;
 }
 
 .card{
@@ -164,11 +174,13 @@ img {
     justify-content: center;
     line-height: 1.5;
     margin-top: 64px;
+    letter-spacing: 1.3px;
 }
 
 .realmeDescription {
   color: wheat;
   line-height: 1.5;
+  letter-spacing: 1.3px;
    
 }
 
