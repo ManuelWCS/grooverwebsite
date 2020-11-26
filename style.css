@@ -1,0 +1,192 @@
+
+
+@import "https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700";
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+}
+
+.svg-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+body {
+  background: lightslategray;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+  height: 100vw;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+header {
+  color: #333333;
+  padding-top: 10vw;
+  padding-bottom: 30vw;
+  text-align: center;
+}
+
+small {
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+h1,
+h3,
+h4 {
+  color: wheat;
+  font-style: bold;
+}
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+  margin-top: 0;
+}
+
+.profileTitle {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 64px;
+}
+.description {
+  color: white;
+  width: 650px;
+  text-align: center;
+  margin-top: 64px;
+  line-height: 1.5;
+}
+
+img {
+  width: 280px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.objectifTitle {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 64px;
+}
+
+.objectifs {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  margin-bottom: 64px;
+}
+
+.objectifsDescription {
+  color: white;
+  width: 650px;
+  text-align: center;
+  margin-top: 64px;
+  line-height: 1.5;
+  margin-bottom: 132px;
+}
+
+.realizationsTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.realizations {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 64px;
+  
+}
+
+.projetDescription li {
+    color: white;
+    line-height: 1.5;
+}
+.projet1card,
+.projet2card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.projetDescription {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+
+.realme {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    margin-top: 64px;
+}
+
+.clip {
+   margin-top: 64px;
+   margin-bottom: 64px;
+}
+
+h2.sixth { position: relative; }
+.sixth {
+    display: flex;
+    justify-content: center;
+}
+h2.sixth:before,
+h2.sixth:after {
+	content: '[';
+	display: inline-block;
+	position: relative;
+	top: 1px;
+	height: 100%;
+	font-size: 1.25em;
+	color: wheat;
+	
+	transition: all 0.5s ease;
+}
+
+h2.sixth:after { content: ']'; }
+
+h2.sixth:hover:before { 
+	transform: translateX(-5px);
+}
+
+h2.sixth:hover:after { 
+	transform: translateX(5px);
+}
+
+h4 {
+    font-style: italic;
+    font-size: small;
+    margin-top: 32px;
+    text-align: center;
+}
+
+.logos img {
+
+    width: 80px;
+    height: 80px;
+}
+
+.logos {
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-evenly;
+}
