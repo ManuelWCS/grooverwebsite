@@ -140,6 +140,15 @@ img {
   margin-bottom: 64px;
 }
 
+.card{
+  background: #fff;
+  color: rgb(61, 62, 65);
+  width: 350px;
+  height: 350px;
+  border-radius: 4px;
+  transition: all 0.3s cubic-bezier(.02,.72,.67,.96);
+  padding: 0 20px;
+}
 
 .realme {
 
