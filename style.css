@@ -31,7 +31,7 @@ h3 {
 header {
   color: #333333;
   padding-top: 10vw;
-  padding-bottom: 30vw;
+  padding-bottom: 10vw;
   text-align: center;
 }
 
@@ -39,9 +39,12 @@ small {
   opacity: 0.5;
   font-weight: 300;
 }
-
+.grooverTitle {
+  color: orangered
+}
 .groover {
-  color: orangered;
+  color: black;
+  text-shadow: 3px 5px 0px rgba(206,89,55,0.77);
 }
 
 h1,
@@ -61,10 +64,11 @@ h4 {
   display: flex;
   justify-content: flex-start;
   margin-left: 64px;
-  font-style: italic;
+  color: wheat;
+  font-style: bold;
 }
 .description {
-  color: white;
+  color: wheat;
   width: 650px;
   text-align: center;
   margin-top: 64px;
@@ -81,18 +85,19 @@ img {
   display: flex;
   justify-content: flex-end;
   margin-right: 64px;
-  font-style: italic;
+  color: wheat;
+  font-style: bold;
 }
 
 .objectifs {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
-  margin-bottom: 64px;
+  margin-bottom: 0px;
 }
 
 .objectifsDescription {
-  color: white;
+  color: wheat;
   width: 650px;
   text-align: center;
   margin-top: 64px;
@@ -103,7 +108,8 @@ img {
 .realizationsTitle {
   display: flex;
   justify-content: center;
-  font-style: italic;
+  color: wheat;
+  font-style: bold;
 }
 
 .realizations {
@@ -114,7 +120,7 @@ img {
 }
 
 .projetDescription li {
-    color: white;
+    color: wheat;
     line-height: 1.5;
     list-style: none;
 }
@@ -161,8 +167,8 @@ img {
 }
 
 .realmeDescription {
-    color: white;
-    line-height: 1.5;
+  color: wheat;
+  line-height: 1.5;
    
 }
 
@@ -221,3 +227,4 @@ h4 {
     display: flex;
     justify-content: space-evenly;
 }
+
