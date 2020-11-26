@@ -40,6 +40,10 @@ small {
   font-weight: 300;
 }
 
+.groover {
+  color: orangered;
+}
+
 h1,
 h3,
 h4 {
@@ -155,7 +159,7 @@ img {
 }
 
 .sixth {
-  font-size: medium;
+  font-size: larger;
 }
 h2.sixth { position: relative; }
 .sixth {
