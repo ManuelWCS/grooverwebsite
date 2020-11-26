@@ -61,6 +61,7 @@ h4 {
   display: flex;
   justify-content: flex-start;
   margin-left: 64px;
+  font-style: italic;
 }
 .description {
   color: white;
@@ -80,6 +81,7 @@ img {
   display: flex;
   justify-content: flex-end;
   margin-right: 64px;
+  font-style: italic;
 }
 
 .objectifs {
@@ -101,6 +103,7 @@ img {
 .realizationsTitle {
   display: flex;
   justify-content: center;
+  font-style: italic;
 }
 
 .realizations {
