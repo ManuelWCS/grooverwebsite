@@ -109,6 +109,11 @@ img {
 .projetDescription li {
     color: white;
     line-height: 1.5;
+    list-style: none;
+}
+
+.projetDescription p li {
+  list-style: none;
 }
 .projet1card,
 .projet2card {
@@ -149,10 +154,14 @@ img {
    margin-bottom: 64px;
 }
 
+.sixth {
+  font-size: medium;
+}
 h2.sixth { position: relative; }
 .sixth {
     display: flex;
     justify-content: center;
+    
 }
 h2.sixth:before,
 h2.sixth:after {
