@@ -139,6 +139,11 @@ img {
     margin-top: 64px;
 }
 
+.realmeDescription {
+    color: white;
+    line-height: 1.5;
+}
+
 .clip {
    margin-top: 64px;
    margin-bottom: 64px;
